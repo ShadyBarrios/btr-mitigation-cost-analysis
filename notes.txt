@@ -1,0 +1,9 @@
+need to add "python.analysis.extraPaths": ["path/to/gem5/src/python"] so that intellisense recognizes gem5 lib
+
+to create alias:
+terminal - vim ~/.bashrc
+write - alias *alias*="path/to/desired"
+terminal (activate) - source ~/.bashrc
+
+to test static binaries:
+gcc -static -O0 -o foo foo.c
